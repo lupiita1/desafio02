@@ -21,4 +21,5 @@ public class Participante {
     @ManyToMany(mappedBy = "participantes")
     private Set<Atividade> atividades = new HashSet<>();
 
+
 }
